@@ -1,0 +1,6 @@
+.DS_Store
+thumbs.db
+*.log
+public/libs/
+.sass-cache/
+ignore/
