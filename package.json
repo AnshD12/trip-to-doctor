@@ -1,0 +1,35 @@
+{
+  "name": "triptodoctor",
+  "version": "1.0.0",
+  "description": "Trip to doctor",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.4",
+    
+    "request": "^2.74.0"
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshD12/trip-to-doctor.git"
+  },
+  "keywords": [
+    "TTD"
+  ],
+  "author": "anshul.dharmadhikari@live.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnshD12/trip-to-doctor/issues"
+  },
+  "homepage": "https://github.com/AnshD12/trip-to-doctor#readme"
+}

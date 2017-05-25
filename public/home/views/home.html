@@ -1,0 +1,193 @@
+<div id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Trip To Doctor</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <!-- <li>
+                        <a class="page-scroll" href="#portfolio">New to Trip to doctor</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+					<li style="padding-top: 5px";>
+                        <a class="btn-login page-scroll" ng-click="showLogin = true">Log In</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">tagline or content</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, iusto earum voluptates autem esse molestiae ipsam atque quam amet similique ducimus aliquid voluptate perferendis, distinctio dolores! Blanditiis ea, voluptas! Aliquam.</p>
+                <a href="" ng-click="goTo('about');" class="btn btn-primary sr-button btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We've got what you need!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque rerum dolore impedit dicta ducimus repellat dignissimos, fugiat minima, quaerat necessitatibus consequatur recusandae quod at vel atque optio, adipisci. Repudiandae, esse.</p>
+                    <a href="" ng-click="goTo('services');" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div style="width:700px;margin : 0 auto">
+            <tutorial-video></tutorial-video>    
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-search text-primary sr-icons"></i>
+                        <h3>Find Doctor</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Get Connected</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-book text-primary sr-icons"></i>
+                        <h3>Book an appointment</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Travel</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Lets get started!</h2>
+                <a ui-sref="doctors-list" class="btn btn-default btn-xl sr-button">Search Doctor</a>
+            </div>
+        </div>
+    </aside>
+	
+	<section>
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Whats New!</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 news-card">
+					<div class="news-content bg-dark">
+						<div class="content-header">
+							<h3>Dr. John Doe</h3>
+							<div class="doc-img">
+								<img src="../imgs/doc1.jpg" height="100%" alt="">
+							</div>
+							<div class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit a, voluptas quia dolor qui eius? Modi nesciunt facere harum suscipit, consequatur libero sequi, excepturi, error adipisci praesentium voluptas voluptatibus earum!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 news-card">
+					<div class="news-content bg-dark">
+						<div class="content-header">
+							<h3>Dr. John Doe</h3>
+							<div class="doc-img pull-right">
+								<img src="../imgs/doc1.jpg" height="100%" alt="">
+							</div>
+							<div class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit a, voluptas quia dolor qui eius? Modi nesciunt facere harum suscipit, consequatur libero sequi, excepturi, error adipisci praesentium voluptas voluptatibus earum!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 news-card">
+					<div class="news-content bg-dark">
+						<div class="content-header">
+							<h3>Dr. John Doe</h3>
+							<div class="doc-img pull-right">
+								<img src="../imgs/doc1.jpg" height="100%" alt="">
+							</div>
+							<div class="description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit a, voluptas quia dolor qui eius? Modi nesciunt facere harum suscipit, consequatur libero sequi, excepturi, error adipisci praesentium voluptas voluptatibus earum!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section id="contact" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perferendis officia vitae possimus, modi odit officiis, quidem natus ad sunt tempora nulla incidunt adipisci eius quo, id nostrum sapiente aut.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a>contact@triptodoctor.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <login ng-show="showLogin"></login>
+</div>    

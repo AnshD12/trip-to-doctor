@@ -1,0 +1,80 @@
+<div class="form-css">
+    <div class="login-modal">
+        <span class="login-close" ng-click="showLogin = false;register = false">x</span>
+        <div class="login-content">
+            <div class="login-logo">
+                <img src="../../imgs/logo.png" alt="">
+            </div>
+            <div class="login-form" ng-show="!register">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email Id</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="login-button">
+                        <button class="btn btn-primary">Log In</button>
+                    </div>
+                    <div class="register-link">
+                        <span>Dont have an account?     </span><a ng-click="register = true">Register</a>
+                    </div>
+                 </form>   
+            </div>
+            <div class="login-form" ng-show="register">
+                <form>
+                    <div class="form-group">
+                        <label for="firstname">First Name *</label>
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name *</label>
+                        <input type="text" class="form-control" id="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailid">Email Id *</label>
+                        <input type="email" class="form-control" id="emailid">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location *</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password *</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <!-- <div class="form-group">
+                        <label for="password">Gender *</label>
+                        <label class="radio-inline"><input type="radio" name="gender">Female</label>
+                        <label class="radio-inline"><input type="radio" name="gender">Male</label>
+                        <i class="fa fa-2x fa-male sr-icons"></i>
+                        <i class="fa fa-2x fa-female sr-icons"></i>
+                    </div> -->
+                    <div class="row" style="margin-bottom: 15px;">
+                        <div class="col-sm-4">
+                            <span style="font-weight: 700;vertical-align: -webkit-baseline-middle">Gender *</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fa fa-2x fa-male male-off"></i>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fa fa-2x fa-female female"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="skypeid">Skype ID</label>
+                        <input type="text" class="form-control" id="skypeid">
+                    </div>
+                    <div class="login-button">
+                        <button class="btn btn-primary">Register</button>
+                    </div>
+                    <div class="register-link">
+                        <span>Already have an account?     </span><a ng-click="register = false">Log In</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

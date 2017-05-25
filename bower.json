@@ -1,0 +1,39 @@
+{
+  "name": "triptodoctor",
+  "authors": [
+    "anshul.dharmadhikari@live.com"
+  ],
+  "description": "triptodoctor",
+  "main": "server.js",
+  "keywords": [
+    "TTD"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "scrollreveal": "^3.3.5",
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "videogular": "^1.4.4",
+    "videogular-themes-default": "^1.4.4",
+    "videogular-controls": "^1.4.4",
+    "videogular-buffering": "^1.4.4",
+    "videogular-overlay-play": "^1.4.4",
+    "videogular-poster": "^1.4.4",
+    "videogular-ima-ads": "^1.4.4",
+    "videogular-angulartics": "^1.4.4"
+  }
+}

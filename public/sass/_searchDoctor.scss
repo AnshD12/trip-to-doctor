@@ -1,0 +1,16 @@
+.doctorsList-content{
+	margin-top : 50px;
+	.doctors{
+		height: 200px;
+		margin-top: 50px;
+		.doctor-img-background{
+			background-image: url('http://lorempixel.com/100/100/people/9/');
+			height: 100px;
+			-webkit-filter: blur(25px);
+		    -moz-filter: blur(25px);
+		    -o-filter: blur(25px);
+		    -ms-filter: blur(25px);
+		    filter: blur(5px);
+		}		
+	}
+}

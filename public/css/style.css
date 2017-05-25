@@ -1,0 +1,108 @@
+.btn-login {
+  border-radius: 20px;
+  background-color: #00BCD4;
+  line-height: 9px !important; }
+
+.container .row .news-card {
+  height: 250px;
+  padding: 10px; }
+  .container .row .news-card .news-content {
+    border: 1px solid #eee;
+    height: 100%;
+    box-shadow: 1px 1px #eee;
+    border-radius: 10px;
+    padding: 5px; }
+    .container .row .news-card .news-content .content-header {
+      width: 100%; }
+      .container .row .news-card .news-content .content-header h3 {
+        font-family: "" Open Sans ", " Helvetica Neue ", Arial, sans-serif"; }
+      .container .row .news-card .news-content .content-header .doc-img {
+        position: absolute;
+        top: 50%;
+        margin-top: -45px;
+        right: 2.5rem;
+        width: 80px;
+        height: 80px; }
+        .container .row .news-card .news-content .content-header .doc-img img {
+          border-radius: 50%; }
+      .container .row .news-card .news-content .content-header .description {
+        width: 75%; }
+
+.form-css {
+  background: rgba(90, 90, 90, 0.48);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99; }
+  .form-css .login-modal {
+    position: absolute;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 2px 3px #4d4d4d;
+    max-width: 550px;
+    min-width: 450px;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    color: #222;
+    padding: 20px 10px 20px 10px; }
+    .form-css .login-modal .login-close {
+      position: absolute;
+      right: 10px;
+      padding: 10px;
+      color: black;
+      cursor: pointer;
+      font-size: xx-large;
+      font-family: monospace;
+      top: 0px; }
+    .form-css .login-modal .login-content .login-logo {
+      margin: 0 auto;
+      float: none;
+      width: 125px;
+      border: 1px solid #00bcd4;
+      border-radius: 50%; }
+      .form-css .login-modal .login-content .login-logo img {
+        width: 100%;
+        border-radius: 50%; }
+    .form-css .login-modal .login-content .login-form {
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 20px;
+      color: #00BCD4;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 13px;
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+      .form-css .login-modal .login-content .login-form form .gender {
+        margin-bottom: 15px; }
+        .form-css .login-modal .login-content .login-form form .gender div span {
+          font-weight: 700;
+          vertical-align: -webkit-baseline-middle; }
+      .form-css .login-modal .login-content .login-form .login-button button {
+        width: 100%;
+        height: 34px; }
+      .form-css .login-modal .login-content .login-form .register-link {
+        margin-top: 10px;
+        text-align: center; }
+        .form-css .login-modal .login-content .login-form .register-link a {
+          text-decoration: underline;
+          font-weight: 700; }
+
+.doctorsList-content {
+  margin-top: 50px; }
+  .doctorsList-content .doctors {
+    height: 200px;
+    margin-top: 50px; }
+    .doctorsList-content .doctors .doctor-img-background {
+      background-image: url("http://lorempixel.com/100/100/people/9/");
+      height: 100px;
+      -webkit-filter: blur(25px);
+      -moz-filter: blur(25px);
+      -o-filter: blur(25px);
+      -ms-filter: blur(25px);
+      filter: blur(5px); }
+
+/*# sourceMappingURL=style.css.map */
