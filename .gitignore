@@ -4,3 +4,4 @@ thumbs.db
 public/libs/
 .sass-cache/
 ignore/
+node_modules/
